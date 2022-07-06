@@ -1,0 +1,19 @@
+.salesactivities {
+  width: 100%;
+  height: 20rem;
+  background-color: white;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.salesactivities > h1 {
+  font-size: 1.1rem;
+}
+
+.salesactivities > img {
+  width: 44rem;
+}

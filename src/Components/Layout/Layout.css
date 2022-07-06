@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.layout__sidebar {
+  flex: 0.1;
+}
+
+.layout__body {
+  flex: 0.97;
+}
+
+.layout__content {
+  overflow-y: auto;
+  height: calc(100vh - 168px);
+}
